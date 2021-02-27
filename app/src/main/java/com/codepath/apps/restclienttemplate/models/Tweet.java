@@ -9,7 +9,8 @@ import java.util.List;
 
 public class Tweet {
 
-    public String body, createdAt;
+    public String body;
+     public static String createdAt;
     public User user;
 
     public static Tweet fromJson(JSONObject jsonObject) throws JSONException {
@@ -26,6 +27,11 @@ public class Tweet {
             tweets.add(fromJson(jsonArray.getJSONObject(i)));
         }
         return tweets;
+
+    }
+
+    public static String getFormattedTimestamp(){
+        return TimeFormatter.getTimeDifference(createdAt);
 
     }
 

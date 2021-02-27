@@ -19,6 +19,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
 
     Context context;
     List<Tweet> tweets;
+    TextView timestamp;
 
     //pass in context and list of tweets
     public TweetsAdapter (Context context, List<Tweet> tweets){
@@ -37,11 +38,13 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
     //bind values based on position of element
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+
         //Get data at position
         Tweet tweet = tweets.get(position);
 
         //Bind tweet with Viewholder
         holder.bind(tweet);
+
 
     }
 
@@ -74,11 +77,13 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
             ivprofilepic = itemView.findViewById(R.id.ivProfilePic);
             tvbody = itemView.findViewById(R.id.tvBody);
             tvscreenname = itemView.findViewById(R.id.tvScreenName);
+            timestamp = itemView.findViewById(R.id.tvTimestamp);
         }
 
         public void bind(Tweet tweet) {
             tvbody.setText(tweet.body);
             tvscreenname.setText(tweet.user.screenName);
+            timestamp.setText(tweet.getFormattedTimestamp());
             Glide.with(context).load(tweet.user.profileImageURL).into(ivprofilepic);
 
         }
