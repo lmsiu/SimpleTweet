@@ -42,6 +42,7 @@ GIF created with AdobePremier.
 Describe any challenges encountered while building the app.
 -I had some challenges with the build file and found out I need to run the app for it to add
 -I also had a problem with naming the Json compnets that I needed to call.
+-I'm also having problems with adding a timestamp
 
 ## Open-source libraries used
 
