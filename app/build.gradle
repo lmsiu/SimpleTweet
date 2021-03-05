@@ -6,6 +6,11 @@ apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
 
 android {
     compileSdkVersion 28
+    ext {
+        appCompatVersion = '1.0.0'
+        designSupportVersion = '1.0.0'
+        recyclerViewVersion = '1.0.0'
+    }
 
     defaultConfig {
         applicationId "com.codepath.apps.restclienttemplate"
@@ -51,4 +56,11 @@ dependencies {
     annotationProcessor "androidx.room:room-compiler:$room_version"
     implementation 'com.facebook.stetho:stetho:1.5.1'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+    def appcompat_version = "1.2.0"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
+    implementation 'org.parceler:parceler-api:1.1.12'
+    annotationProcessor 'org.parceler:parceler:1.1.12'
+
+
 }

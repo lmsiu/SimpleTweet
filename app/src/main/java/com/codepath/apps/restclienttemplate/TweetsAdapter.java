@@ -83,7 +83,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         public void bind(Tweet tweet) {
             tvbody.setText(tweet.body);
             tvscreenname.setText(tweet.user.screenName);
-            timestamp.setText(tweet.getFormattedTimestamp());
+           timestamp.setText(tweet.getFormattedTimestamp());
             Glide.with(context).load(tweet.user.profileImageURL).into(ivprofilepic);
 
         }
