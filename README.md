@@ -38,13 +38,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Twitter Full Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with Adobe Premier
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some challenges I had while building the app were with the time stamps. When refreshed, the time stamps change into timestamps that are completly wrong. I am still trying to resolve the issue.
 
 ## Open-source libraries used
 
