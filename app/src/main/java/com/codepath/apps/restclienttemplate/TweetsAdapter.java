@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -83,7 +84,8 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         public void bind(Tweet tweet) {
             tvbody.setText(tweet.body);
             tvscreenname.setText(tweet.user.screenName);
-           timestamp.setText(tweet.getFormattedTimestamp());
+            timestamp.setText(tweet.getFormattedTimestamp());
+            Log.i("TweetsAdapter", (String) timestamp.getText() + " + " + tvbody.getText());
             Glide.with(context).load(tweet.user.profileImageURL).into(ivprofilepic);
 
         }

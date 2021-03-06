@@ -1,0 +1,135 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 126 ciObject found
+ciMethod java/io/InputStream read ()I 0 0 1 0 -1
+ciMethod java/io/InputStream read ([BII)I 9 1521 1 0 -1
+ciMethod java/lang/Math min (II)I 2993 1 259122 0 -1
+ciMethod java/io/ObjectInputStream access$1000 (Ljava/io/ObjectInputStream;)Z 1265 1 158 0 -1
+ciMethod java/io/ObjectInputStream access$1100 (Ljava/io/ObjectInputStream;)V 0 0 1 0 -1
+ciMethod java/io/ObjectInputStream$BlockDataInputStream readBlockHeader (Z)I 2625 1 966 0 0
+ciMethod java/io/ObjectInputStream$BlockDataInputStream refill ()V 505 97 961 0 0
+ciMethod java/io/ObjectInputStream$BlockDataInputStream read ()I 2297 1 5420 0 -1
+ciMethod java/io/ObjectInputStream$PeekInputStream peek ()I 2057 1 4406 0 -1
+ciMethod java/io/ObjectInputStream$PeekInputStream read ()I 3641 1 4861 0 0
+ciMethod java/io/ObjectInputStream$PeekInputStream read ([BII)I 2065 1 5493 0 320
+ciMethod java/io/ObjectInputStream$PeekInputStream readFully ([BII)V 2721 2721 6152 0 -1
+ciMethod java/io/ObjectInputStream$PeekInputStream available ()I 0 0 1 0 -1
+ciMethod java/io/Bits getInt ([BI)I 2625 1 698 0 -1
+ciMethodData java/io/ObjectInputStream$BlockDataInputStream read ()I 2 5431 orig 264 88 29 37 91 0 0 0 0 32 39 54 28 0 0 0 0 0 2 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 1 0 0 193 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 184 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 23 0x40007 0x11de 0x88 0x23c 0xf0007 0x15a 0x30 0xe2 0x130002 0xe2 0x1a0007 0x0 0x38 0x23b 0x310003 0x23c 0x18 0x3a0005 0x0 0x2e2803b0 0x11df 0x0 0x0 oops 1 19 java/io/ObjectInputStream$PeekInputStream
+ciMethodData java/io/ObjectInputStream$BlockDataInputStream refill ()V 1 968 orig 264 88 29 37 91 0 0 0 0 24 36 54 28 0 0 0 0 136 2 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 73 28 0 0 145 26 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 19 0 2 0 0 0 64 1 0 0 255 255 255 255 7 0 9 0 0 0 0 0 data 40 0x90007 0x388 0xc0 0xe0 0x1c0002 0xe0 0x1f0005 0x0 0x2e2803b0 0xe0 0x0 0x0 0x240007 0x0 0x38 0xe0 0x360003 0xe0 0x28 0x3f0002 0x0 0x430003 0xe0 0x60 0x480002 0x389 0x4d0007 0x2a8 0x38 0xe0 0x5a0003 0xe0 0x18 0x6f0007 0xe0 0xfffffffffffffef8 0x389 0x720003 0x389 0x18 oops 1 8 java/io/ObjectInputStream$PeekInputStream
+ciMethodData java/io/ObjectInputStream$PeekInputStream read ()I 2 4936 orig 264 88 29 37 91 0 0 0 0 144 19 208 28 0 0 0 0 208 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 199 1 0 0 9 140 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 136 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 17 0x40007 0x53a 0x20 0xc48 0x170005 0xe 0x2edd150 0x401 0x1acc9290 0x12c 0x210007 0x0 0x38 0x53c 0x250003 0x53b 0x18 oops 2 6 java/io/ByteArrayInputStream 8 org/gradle/internal/serialize/AbstractDecoder$DecoderStream
+instanceKlass com/google/common/io/Closeables
+instanceKlass com/android/builder/internal/aapt/v2/Aapt2DaemonImpl$AllowShutdown
+instanceKlass com/google/common/io/CharSink
+instanceKlass sun/nio/ch/Util$5
+instanceKlass sun/nio/ch/FileChannelImpl$Unmapper
+instanceKlass com/android/zipflinger/ZipSource
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1180
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$1179
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$1178
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$1177
+instanceKlass com/android/builder/files/DirectoryEntry
+instanceKlass com/android/builder/files/ZipCentralDirectoryKt
+instanceKlass com/android/builder/files/ZipCentralDirectory$CdrInfo
+instanceKlass com/android/builder/files/RelativeFiles
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable$$Lambda$1176
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$1175
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets
+instanceKlass com/android/builder/files/ZipCentralDirectory
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges$RebuildFileChange
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges$$Lambda$1174
+instanceKlass org/gradle/internal/execution/history/changes/NonIncrementalInputChanges$$Lambda$1173
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1172
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1171
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$1170
+instanceKlass java/util/Collections$2
+instanceKlass com/android/tools/r8/graph/C$$Lambda$1169
+instanceKlass org/parceler/transfuse/gen/invocationBuilder/PackageHelperGenerator
+instanceKlass org/parceler/codemodel/JFormatter$ReferenceList
+instanceKlass org/parceler/codemodel/JFormatter$1
+instanceKlass org/parceler/codemodel/JFormatter
+instanceKlass org/parceler/codemodel/util/EncoderFactory
+instanceKlass org/parceler/internal/ReadContext
+instanceKlass org/parceler/codemodel/JThrow
+instanceKlass org/parceler/codemodel/JReturn
+instanceKlass org/parceler/apache/commons/lang/StringUtils
+instanceKlass org/parceler/internal/ParcelerInvocationBuilderStrategy$1
+instanceKlass org/parceler/transfuse/model/TypedExpression
+instanceKlass org/parceler/transfuse/adapter/ASTJDefinedClassType
+instanceKlass org/parceler/internal/WriteContext
+instanceKlass org/parceler/codemodel/JConditional
+instanceKlass org/parceler/codemodel/JOp
+instanceKlass org/parceler/IdentityCollection
+instanceKlass org/parceler/codemodel/JBlock
+instanceKlass org/parceler/ParcelWrapper
+instanceKlass org/parceler/codemodel/JExpressionImpl
+instanceKlass org/parceler/codemodel/JExpr
+instanceKlass org/parceler/codemodel/JAnnotationValue
+instanceKlass org/parceler/codemodel/JMods
+instanceKlass org/parceler/codemodel/JGenerifiableImpl
+instanceKlass org/parceler/codemodel/ClassType
+instanceKlass org/parceler/codemodel/JPackage
+instanceKlass org/parceler/transfuse/gen/ClassNamer$ClassNameBuilder
+instanceKlass org/parceler/transfuse/gen/ClassNamer
+instanceKlass org/parceler/internal/ReferencePair
+instanceKlass org/parceler/transfuse/adapter/element/LazyElementParameterBuilder
+instanceKlass org/parceler/internal/FieldReference
+instanceKlass org/parceler/internal/AccessibleReference
+instanceKlass org/parceler/transfuse/adapter/GenericsUtil
+instanceKlass org/parceler/guava/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator
+instanceKlass org/parceler/guava/collect/AbstractMapBasedMultimap$KeySet$1
+instanceKlass org/parceler/internal/ParcelableAnalysis$7
+instanceKlass org/parceler/internal/ParcelableAnalysis$6
+instanceKlass org/parceler/transfuse/adapter/MethodSignature
+instanceKlass org/parceler/internal/ParcelableAnalysis$10
+instanceKlass org/parceler/internal/ParcelableAnalysis$11
+instanceKlass org/parceler/internal/ParcelableAnalysis$12
+instanceKlass org/parceler/internal/ParcelableAnalysis$3
+instanceKlass org/parceler/internal/ParcelableAnalysis$2
+instanceKlass org/parceler/OnUnwrap
+instanceKlass org/parceler/internal/ParcelableAnalysis$1
+instanceKlass org/parceler/OnWrap
+instanceKlass org/parceler/guava/collect/AbstractMapBasedMultimap$Itr
+instanceKlass org/parceler/guava/collect/Sets
+instanceKlass org/parceler/guava/collect/SortedSetMultimap
+instanceKlass org/parceler/guava/collect/ListMultimap
+instanceKlass org/parceler/guava/collect/Multimaps
+instanceKlass org/parceler/ParcelPropertyConverter
+instanceKlass org/parceler/internal/ParcelableAnalysis$ASTReference
+instanceKlass org/parceler/ParcelProperty
+instanceKlass org/parceler/Transient
+instanceKlass org/parceler/guava/base/Joiner$MapJoiner
+instanceKlass org/parceler/guava/base/Converter
+instanceKlass org/parceler/guava/collect/Maps$EntryTransformer
+instanceKlass org/parceler/guava/collect/SortedMapDifference
+instanceKlass org/parceler/guava/collect/MapDifference
+instanceKlass org/parceler/guava/collect/Maps
+instanceKlass org/parceler/internal/ParcelableAnalysis$13
+instanceKlass org/parceler/internal/ParcelableAnalysis$14
+instanceKlass org/parceler/internal/ParcelableAnalysis$15
+instanceKlass org/parceler/guava/collect/AbstractMultimap
+instanceKlass org/parceler/guava/collect/SetMultimap
+instanceKlass org/parceler/internal/ASTTypeHierarchyIterator
+instanceKlass org/parceler/internal/ConstructorReference
+instanceKlass org/parceler/ParcelFactory
+instanceKlass org/parceler/ParcelConstructor
+instanceKlass org/parceler/internal/ParcelableDescriptor
+instanceKlass org/parceler/transfuse/adapter/ASTUtils
+instanceKlass org/parceler/transfuse/adapter/element/ASTTypeLazyLoader
+instanceKlass org/parceler/transfuse/adapter/element/ASTElementBase
+instanceKlass org/parceler/transfuse/adapter/element/ASTElementFactory$2
+instanceKlass org/parceler/guava/base/Predicates
+instanceKlass org/parceler/transfuse/adapter/element/ASTElementConverter
+instanceKlass org/parceler/transfuse/adapter/element/ASTElementAnnotation
+instanceKlass org/parceler/transfuse/adapter/element/LazyASTType
+instanceKlass org/parceler/transfuse/adapter/element/ElementHolder
+instanceKlass org/parceler/internal/matcher/GenericCollectionMatcher
+instanceKlass org/parceler/transfuse/util/matcher/ASTArrayMatcher
+instanceKlass org/parceler/internal/matcher/ParcelMatcher
+instanceKlass org/parceler/internal/matcher/RemoterMatcher
+instanceKlass org/parceler/internal/matcher/EnumMatcher
+instanceKlass org/parceler/transfuse/util/matcher/InheritsMatcher
+instanceKlass org/parceler/internal/matcher/MutableLiveDataMatcher
+instanceKlass org/parceler/internal/matcher/ObservableFieldMatcher

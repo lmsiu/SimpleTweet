@@ -35,8 +35,9 @@ public class Tweet {
 
     }
 
-    public String getFormattedTimestamp(){
-        //causing problems with refreash doubling time
+   public String getFormattedTimestamp(){
+        //causing problems with refresh doubling time
+
         return TimeFormatter.getTimeDifference(createdAt);
 
     }

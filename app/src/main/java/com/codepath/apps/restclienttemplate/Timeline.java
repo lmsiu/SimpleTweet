@@ -52,6 +52,7 @@ public class Timeline extends AppCompatActivity {
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+                adapter.clear();
                 Log.i(TAG, "Fetching refresh data");
                 populateHomeTimeline();
             }
@@ -65,6 +66,7 @@ public class Timeline extends AppCompatActivity {
         //Reycler view setup: layout manager and adapter
         rvTweets.setLayoutManager(new LinearLayoutManager(this));
         rvTweets.setAdapter(adapter);
+        adapter.clear();
         populateHomeTimeline();
         
 
